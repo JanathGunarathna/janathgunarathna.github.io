@@ -168,11 +168,37 @@
 }
 
 .form-card1 {
-  background-image: linear-gradient(163deg,#90eb18 0%, #90eb18 100%);
+  background-image: linear-gradient(163deg, #90eb18 0%, #90eb18 100%);
   border-radius: 22px;
-  height: 500px;
-  width: 600px;
   transition: all 0.3s;
+  
+  /* Base size for mobile devices */
+  width: 90%;
+  max-width: 600px;
+  min-height: 400px;
+  height: auto;
+}
+
+/* For tablets */
+@media screen and (min-width: 768px) {
+  .form-card1 {
+    width: 80%;
+  }
+}
+
+/* For desktop */
+@media screen and (min-width: 1024px) {
+  .form-card1 {
+    width: 600px;
+    height: 500px; /* Original height for desktop */
+  }
+}
+
+/* For smaller mobile devices */
+@media screen and (max-width: 480px) {
+  .form-card1 {
+    width: 95%;
+  }
 }
 
 .form-card1:hover {
