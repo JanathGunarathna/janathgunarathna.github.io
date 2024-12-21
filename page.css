@@ -70,18 +70,43 @@
 
 /* contact me */ 
 .form {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-self: center;
   font-family: inherit;
-  height: 500px;
-  width: 600px;
   gap: 9px;
   padding-inline: 2em;
   padding-bottom: 0.4em;
-  /* background-color: #171717; */
   background-color: #191b1f;
   border-radius: 20px;
+  
+  /* Base size for mobile devices */
+  width: 90%;    /* Use percentage instead of fixed width */
+  max-width: 600px;  /* Maximum width on larger screens */
+  min-height: 400px; /* Minimum height */
+  height: auto;      /* Allow height to adjust based on content */
+}
+
+/* For tablets */
+@media screen and (min-width: 768px) {
+  .form {
+    width: 80%;
+  }
+}
+
+/* For desktop */
+@media screen and (min-width: 1024px) {
+  .form {
+    width: 600px; /* Your original desired width */
+  }
+}
+
+/* For smaller mobile devices */
+@media screen and (max-width: 480px) {
+  .form {
+    width: 95%;
+    padding-inline: 1em; /* Reduce padding on smaller screens */
+  }
 }
 
 .form-heading {
