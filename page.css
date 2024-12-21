@@ -70,21 +70,22 @@
 
 /* contact me */ 
 .form {
-  display: flex;
+  display:flex;
   flex-direction: column;
   align-self: center;
   font-family: inherit;
   gap: 9px;
   padding-inline: 2em;
   padding-bottom: 0.4em;
+  /* background-color: #171717; */
   background-color: #191b1f;
   border-radius: 20px;
-  
-  /* Base size for mobile devices */
-  width: 90%;    /* Use percentage instead of fixed width */
+
+    /* Base size for mobile devices */
+  width: 80%;    /* Use percentage instead of fixed width */
   max-width: 600px;  /* Maximum width on larger screens */
   min-height: 400px; /* Minimum height */
-  height: auto;      /* Allow height to adjust based on content */
+  height: 500px;      /* Allow height to adjust based on content */
 }
 
 /* For tablets */
@@ -118,6 +119,7 @@
   font-size: 1.2em;
   background-color: transparent;
   align-self: center;
+  
 }
 
 .form-field {
@@ -188,7 +190,7 @@
 }
 
 /* cards */
-/* From Uiverse.io by gharsh11032000 */ 
+
 .card {
   position: relative;
   width: 300px;
