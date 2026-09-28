@@ -1,169 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/icon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#00F260" />
-    <title>Janath Gunarathna</title>
-    <link rel="stylesheet" href="page.css">
-    <link rel="javascript" href="javascript.js">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide-icons/0.321.0/font/lucide.min.css" rel="stylesheet">
-</head>
-
-<body class="bg-zinc-950 text-white">
-   
-    <!-- snow effect -->
-        <!-- <div class="snowflakes" aria-hidden="true">
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-          <div class="snowflake">
-            <div class="inner">❅</div>
-          </div>
-        </div> -->
-        
-
-    <!-- Side Navigation -->
-    <nav class="fixed right-4 top-1/2 -translate-y-1/2 flex flex-col gap-6 z-50">
-        <a href="#home" class="p-2 bg-zinc-900 rounded-full hover:bg-zinc-800 transition-colors">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6">
-                </path>
-            </svg>
-        </a>
-        <a href="#about" class="p-2 bg-zinc-900 rounded-full hover:bg-zinc-800 transition-colors">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-            </svg>
-        </a>
-        <a href="#projects" class="p-2 bg-zinc-900 rounded-full hover:bg-zinc-800 transition-colors">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
-                </path>
-            </svg>
-        </a>
-        <a href="#Achievments" class="p-2 bg-zinc-900 rounded-full hover:bg-zinc-800 transition-colors">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z">
-                </path>
-            </svg>
-        </a>
-        <a href="#contact" class="p-2 bg-zinc-900 rounded-full hover:bg-zinc-800 transition-colors">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                </path>
-            </svg>
-        </a>
-    </nav>
-
-    <!-- Social Links -->
-    <div class="fixed right-4 bottom-4 flex flex-col gap-4">
-        <a href="https://linkedin.com" class="text-zinc-400 hover:text-white transition-colors">
-            <i data-lucide="linkedin" class="w-6 h-6"></i>
-        </a>
-        <a href="https://github.com" class="text-zinc-400 hover:text-white transition-colors">
-            <i data-lucide="github" class="w-6 h-6"></i>
-        </a>
-        <a href="https://twitter.com" class="text-zinc-400 hover:text-white transition-colors">
-            <i data-lucide="twitter" class="w-6 h-6"></i>
-        </a>
-        <a href="https://youtube.com" class="text-zinc-400 hover:text-white transition-colors">
-            <i data-lucide="youtube" class="w-6 h-6"></i>
-        </a>
-        <a href="mailto:email@example.com" class="text-zinc-400 hover:text-white transition-colors">
-            <i data-lucide="mail" class="w-6 h-6"></i>
-        </a>
-    </div>
-
-    <!-- Main Content -->
-    <main class="container mx-auto px-4 py-20">
-        <!-- Hero Section -->
-        <section id="home" class="min-h-screen flex items-center">
-
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h1 class="text-6xl font-bold mb-4">
-                        <span class="gradient-text">Janath Gunarathna</span>
-                        <br>
-                        Software Engineer
-                    </h1>
-                    <p class="text-xl text-zinc-400 mb-4">Faculty of Information Technology<br> University Of Moratuwa
-                    </p>
-                    <p class="text-zinc-300 mb-8">
-                        A passionate and goal-oriented individual, committed to leveraging technology to create
-                        meaningful solutions and improve lives.
-                    </p>
-                    <!-- <div class="grid grid-cols-3 gap-8 mb-8">
-                        <p >
-                            <img src="https://komarev.com/ghpvc/?username=JanathGunarathna&label=Profile%20views&color=0e75b6&style=flat" alt="JanathGunarathna" />
-                          </p>
-                        <div>
-                            <span class="text-4xl font-bold text-[#96F550]">2+</span>
-                            <p class="text-sm text-zinc-400">Years of Industry Experience</p>
-                        </div>
-                        <div>
-                            <span class="text-4xl font-bold text-[#96F550]">10+</span>
-                            <p class="text-sm text-zinc-400">Years of Programming</p>
-                        </div>
-                        <div>
-                            <span class="text-4xl font-bold text-[#96F550]">15+</span>
-                            <p class="text-sm text-zinc-400">Projects Completed</p>
-                        </div> 
-                    </div> -->
-
-                    <a href="cv/Janath Gunarathna.pdf">
-                        <button class="button">
-                            <p class="text">
-                                Download CV
-                            </p>
-                            <div class="svg">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-download"
-                                    viewBox="0 0 16 16">
-                                    <path
+                           <path
                                         d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z">
                                     </path>
                                     <path
@@ -183,72 +18,118 @@
             </div>
         </section>
 
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="py-20">
+            <h2 class="text-3xl font-bold mb-12">Professional Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between gap-2 mb-3">
+                        <h3 class="text-xl font-bold">Associate Engineer (L2 System) – ANTlabs Hospitality Pte. Ltd.</h3>
+                        <span class="text-zinc-400">Jan 2026 – Sep 2026</span>
+                    </div>
+                    <ul class="list-disc list-inside text-zinc-400 space-y-2">
+                        <li>Integrated and configured KVM-based server setups to support product deployment and system connectivity.</li>
+                        <li>Performed Linux system troubleshooting and resolved system, network, and service-related issues as part of L2 support.</li>
+                        <li>Built and configured captive portal solutions and provided technical support for customer deployments.</li>
+                        <li>Supported gateway, CMS, and server-related troubleshooting and deployment activities.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
+                    <div class="flex flex-col md:flex-row md:justify-between gap-2 mb-3">
+                        <h3 class="text-xl font-bold">Software Engineer Intern – Hasthiya IT Solution</h3>
+                        <span class="text-zinc-400">Mar 2024 – Sep 2024</span>
+                    </div>
+                    <ul class="list-disc list-inside text-zinc-400 space-y-2">
+                        <li>Developed commercial web-based products using React.js, Node.js, and MySQL.</li>
+                        <li>Contributed to application development, testing, deployment, and troubleshooting across multiple projects.</li>
+                        <li>Worked with clients and project stakeholders to understand requirements and support production-ready solutions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <!-- Projects Section -->
         <section id="projects" class="py-20">
             <h2 class="text-3xl font-bold mb-12">My Projects</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
                 <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
-                    <img src="cv/woodland.png" alt="Project 1" class="rounded-lg mb-4">
-                    <h3 class="text-xl font-bold mb-2">Woodland Rover Crew website</h3>
+                    <!-- Add cv/lumera.png to your cv folder if not already present -->
+                    <img src="cv/lumera.png" alt="Luméra Fragrance E-Commerce Website" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Luméra Fragrance E-Commerce Website</h3>
                     <p class="text-zinc-400 mb-4">
-                        The <b>Woodland Rover Crew</b> website serves as a vibrant hub for outdoor enthusiasts, offering
-                        resources, inspiration, and community for nature lovers, adventurers, and explorers. With
-                        detailed guides on hiking trails, camping tips, gear recommendations, and environmental
-                        conservation, it’s a one-stop platform to plan and enhance your wilderness experiences. Whether
-                        you're a seasoned trekker or a novice nature explorer, Woodland Rover Crew connects
-                        you to a passionate community dedicated to sustainable and adventurous living in the great
-                        outdoors.
+                        Developed and deployed a full-stack e-commerce platform for the Luméra fragrance brand using
+                        React.js, Spring Boot, and MySQL. Deployed the application on a Linux server using Docker and
+                        Jenkins for containerization and CI/CD automation.
                     </p>
-                    <div class="flex gap-2">
-                        <a href="https://github.com/JanathGunarathna/woodland_backend.git">
-                            <button
-                                class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800">
-                                View Project
-                            </button>
-                        </a>
-                    </div>
+                    <p class="text-sm text-zinc-500 mb-4">React.js · Spring Boot · MySQL · Linux · Docker · Jenkins · GitHub</p>
                 </div>
+
                 <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
-                    <img src="cv/fyp.jpg" alt="Project 2" class="rounded-lg mb-4">
+                    <!-- Add cv/yummygo.png to your cv folder if not already present -->
+                    <img src="cv/yummygo.png" alt="YummyGo Food Delivery Platform" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">YummyGo – Food Delivery Platform</h3>
+                    <p class="text-zinc-400 mb-4">
+                        Developed a full-stack food delivery platform with customer, restaurant, and driver modules,
+                        authentication, order management, and real-time order tracking.
+                    </p>
+                    <p class="text-sm text-zinc-500 mb-4">React.js · Spring Boot · MongoDB · AWS S3</p>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
+                    <img src="cv/fyp.jpg" alt="Smart Vessel Monitoring System" class="rounded-lg mb-4">
                     <h3 class="text-xl font-bold mb-2">Smart Vessel Monitoring System</h3>
                     <p class="text-zinc-400 mb-4">
-                        This is our final year project. This project is a smart vessel monitoring system that using
-                        blockchain technology.
-                        in here my contribute is create mobile application and coonect with the blockchain.
+                        Final year IoT project for GPS tracking and load monitoring, integrating blockchain for secure
+                        data storage and a Flutter/Firebase mobile application with offline synchronization.
                     </p>
-                    <div class="flex gap-2">
-                        <a href="https://github.com/JanathGunarathna/smart_vessel_monitoring_system.git">
-                            <button
-                                class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800">
-                                View Project
-                            </button>
-                        </a>
-                        <!-- <button
-                            class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800 flex items-center">
-                            <i data-lucide="github" class="w-4 h-4"></i>
-                        </button> -->
-                    </div>
+                    <p class="text-sm text-zinc-500 mb-4">ESP32 · HX711 · Neo-6M GPS · Flutter · Firebase · Blockchain</p>
+                    <a href="https://github.com/JanathGunarathna/smart_vessel_monitoring_system.git">
+                        <button class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800">
+                            View Project
+                        </button>
+                    </a>
                 </div>
+
                 <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
-                    <img src="cv/classromm.jpg" alt="Project 3" class="rounded-lg mb-4">
-                    <h3 class="text-xl font-bold mb-2">EdU lab </h3>
+                    <!-- Add cv/bakery.png to your cv folder if not already present -->
+                    <img src="cv/bakery.png" alt="T & S Bakery Inventory Management System" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">T & S Bakery Inventory Management System</h3>
                     <p class="text-zinc-400 mb-4">
-                        As part of a group project, I contributed by developing the features for creating, updating, and
-                        deleting notifications, timetables, and class schedules.
-                        My work focused on ensuring seamless functionality and user-friendly design.
+                        Developed an inventory management system for stock tracking, pricing, reporting, and real-time
+                        data synchronization. Implemented a Jenkins CI/CD pipeline for automated build, testing, and deployment.
                     </p>
-                    <div class="flex gap-2">
-                        <a href="https://github.com/JanathGunarathna/edu_lab.git">
-                            <button
-                                class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800">
-                                View Project
-                            </button>
-                        </a>
-                        <!-- <button
-                            class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800 flex items-center">
-                            <i data-lucide="github" class="w-4 h-4"></i>
-                        </button> -->
-                    </div>
+                    <p class="text-sm text-zinc-500 mb-4">React.js · Firebase · Jenkins</p>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
+                    <img src="cv/woodland.png" alt="Woodland Rover Crew website" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">Woodland Rover Crew Website</h3>
+                    <p class="text-zinc-400 mb-4">
+                        A community website for outdoor enthusiasts, providing hiking, camping, gear, environmental
+                        conservation, and adventure resources for the Woodland Rover Crew.
+                    </p>
+                    <a href="https://github.com/JanathGunarathna/woodland_backend.git">
+                        <button class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800">
+                            View Project
+                        </button>
+                    </a>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
+                    <img src="cv/classromm.jpg" alt="EdU Lab" class="rounded-lg mb-4">
+                    <h3 class="text-xl font-bold mb-2">EdU Lab</h3>
+                    <p class="text-zinc-400 mb-4">
+                        Group project where I developed features for creating, updating, and deleting notifications,
+                        timetables, and class schedules, with a focus on reliable functionality and usability.
+                    </p>
+                    <a href="https://github.com/JanathGunarathna/edu_lab.git">
+                        <button class="border border-zinc-700 text-white px-3 py-1 rounded text-sm hover:bg-zinc-800">
+                            View Project
+                        </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -264,7 +145,7 @@
                     </path>
                 </svg>
                 <div class="card__content">
-                    <p class="card__title">Most Out standing club Treasurer 2nd Runner up -Leo Multiple district 306</p>
+                    <p class="card__title">Most Outstanding Club Treasurer – 2nd Runner-Up, Leo Multiple District 306</p>
                     <p class="card__description">I was proud to achieve the 2nd Runner-Up Award for Most Outstanding
                         Club Treasurer in Leo Multiple District 306, representing Sri Lanka and the Maldives. </p>
                 </div>
@@ -278,10 +159,9 @@
                     </path> -->
                 </svg>
                 <div class="card__content">
-                    <p class="card__title">Most outstanding club Treasurer 23/24</p>
-                    <p class="card__description">I was honored to receive the Most Outstanding Club Treasurer Award from
-                        Leo District 306 A2. During my tenure as treasurer, I successfully managed and executed projects
-                        valued at 9 million, making a significant impact throughout the year.</p>
+                    <p class="card__title">Most Outstanding Club Treasurer 2023/24</p>
+                    <p class="card__description">Received the Most Outstanding Club Treasurer Award from Leo District 306 A2. During my tenure as Treasurer,
+                        I managed and supported projects with a total value of approximately LKR 9 million.</p>
                 </div>
             </div>
 
@@ -315,6 +195,42 @@
             </div>
         </section>
 
+        <!-- Education & Certifications Section -->
+        <section id="education" class="py-20">
+            <h2 class="text-3xl font-bold mb-12">Education & Certifications</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Education</h3>
+                    <div class="space-y-4 text-zinc-400">
+                        <div>
+                            <p class="text-white font-semibold">B.Sc. (Hons) in Information Technology</p>
+                            <p>University of Moratuwa, Sri Lanka · 2021 – 2025</p>
+                        </div>
+                        <div>
+                            <p class="text-white font-semibold">Diploma in Information and Communication Technology</p>
+                            <p>Nenasala Campus, Sri Lanka · 2021</p>
+                        </div>
+                        <div>
+                            <p class="text-white font-semibold">G.C.E. Advanced Level – Physical Science Stream</p>
+                            <p>Kuliyapitiya Central College, Sri Lanka · 2019</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Certifications</h3>
+                    <ul class="list-disc list-inside text-zinc-400 space-y-2">
+                        <li>Python for Beginners – University of Moratuwa (CODL)</li>
+                        <li>Web Development for Beginners – University of Moratuwa (CODL)</li>
+                        <li>Diploma in Information and Communication Technology – Nenasala Campus</li>
+                        <li>Introduction to DevOps – Great Learning</li>
+                        <li>Foundations of Cybersecurity – Google / Coursera</li>
+                        <li>DevOps Prerequisite Course – Coursera</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <!-- About Section -->
         <section id="about" class="py-20">
             <h2 class="text-3xl font-bold mb-12">About Me</h2>
@@ -322,54 +238,73 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Academic and Professional Background</h3>
                     <p class="text-zinc-400 mb-6">
-                        Currently pursuing final year of undergraduate studies at the University of Moratuwa, with a
-                        focus on software engineering and problem-solving.
+                        I am a B.Sc. (Hons) in Information Technology graduate from the University of Moratuwa with
+                        professional experience in software engineering and L2 systems support. My recent experience at
+                        ANTlabs strengthened my knowledge of Linux, KVM, server integration, troubleshooting, deployment,
+                        and hospitality technology. I am currently focused on building my career in DevOps and cloud infrastructure.
                     </p>
+
                     <h3 class="text-xl font-bold mb-4">Technical Skills</h3>
                     <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Node.js</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">React.js</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Python</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Java</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">HTML</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">CSS</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">JavaScript</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Flutter</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Bootstrap</span>
-
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Docker</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Jenkins</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Git</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">GitHub</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Gitea</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Linux</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">KVM</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">AWS</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Firebase</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Bash</span>
                     </div>
+
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Java</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Python</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">React.js</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Node.js</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Spring Boot</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">MySQL</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">MsSQL</span>
+                    </div>
+
                     <div class="flex flex-wrap gap-2">
                         <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Postman</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Git</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">MySQL</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">MS SQL</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Cypress</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Selenium</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Server Integration</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">CI/CD</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Deployment</span>
                     </div>
                 </div>
+
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Skills</h3>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Leadership</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Problem solving</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Self Confidence</span>
+                    <h3 class="text-xl font-bold mb-4">Professional Skills</h3>
+                    <div class="flex flex-wrap gap-2 mb-8">
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Problem Solving</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Incident Management</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Team Collaboration</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Communication</span>
                         <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Time Management</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Teamwork</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Communication skills</span>
-                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Creativity</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Adaptability</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Continuous Learning</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Leadership</span>
                     </div>
+
                     <h3 class="text-xl font-bold mb-4">Interests</h3>
-                    <p class="text-zinc-400 mb-4">
-                        In my free time, I love engaging in activities that challenge my mind and keep me active.
-                        Playing cricket and chess helps me build teamwork and strategic thinking, while adventure games
-                        and video games fuel my creativity and problem-solving skills. I also enjoy listening to music
-                        as a way to relax and unwind. Hiking allows me to connect with nature and explore new
-                        environments, adding a sense of adventure to my routine.
-                        These hobbies reflect my passion for balancing mental stimulation, physical activity, and
-                        creativity in my life
+                    <p class="text-zinc-400 mb-6">
+                        I enjoy web development, software engineering, DevOps, cybersecurity, hiking, cricket, football,
+                        gaming, and exploring new technologies. These interests help me maintain a balance between
+                        technical learning, creativity, teamwork, and outdoor activities.
                     </p>
+
                     <h3 class="text-xl font-bold mb-4">Key Interests</h3>
                     <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">DevOps</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Cloud & Infrastructure</span>
                         <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Web Development</span>
                         <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Software Engineering</span>
+                        <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Cybersecurity</span>
                         <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Problem Solving</span>
                         <span class="px-3 py-1 bg-zinc-800 rounded-full text-sm">Open Source</span>
                     </div>
@@ -482,7 +417,9 @@
                 <ul class="space-y-2">
                     <li><a href="#home" class="text-zinc-400 hover:text-white transition">Home</a></li>
                     <li><a href="#about" class="text-zinc-400 hover:text-white transition">About</a></li>
-                    <li><a href="#projects" class="text-zinc-400 hover:text-white transition">Projects</a></li>
+                    <li><a href="#experience" class="text-zinc-400 hover:text-white transition">Experience</a></li>
+                     <li><a href="#projects" class="text-zinc-400 hover:text-white transition">Projects</a></li>
+                     <li><a href="#education" class="text-zinc-400 hover:text-white transition">Education</a></li>
                     <li><a href="#Achievments" class="text-zinc-400 hover:text-white transition">My Achievments</a>
                     </li>
                     <li><a href="#contact" class="text-zinc-400 hover:text-white transition">Contact</a></li>
@@ -529,7 +466,7 @@
             </div>
         </div>
         <div class="text-center mt-8 border-t border-zinc-800 pt-6">
-            <p class="text-zinc-400">&copy; 2024 Janath Gunarathna. All Rights Reserved.</p>
+            <p class="text-zinc-400">&copy; 2026 Janath Gunarathna. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
